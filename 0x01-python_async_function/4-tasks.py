@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
+"""module to run multiple coroutines at same time"""
 import asyncio
 from typing import List
-"""module to run multiple coroutines at same time"""
 
 task_wait_random = __import__('3-tasks').task_wait_random
 

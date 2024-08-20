@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
+"""module thats waits for a random delay"""
 import random
 import asyncio
-"""module thats waits for a random delay"""
 
 
 async def wait_random(max_delay: int = 10) -> float:
